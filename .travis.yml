@@ -32,7 +32,7 @@ deploy:
         # to make your own: https://docs.travis-ci.com/user/deployment/releases/
         secure: L01GGsdJPZ4OJTD8/+wiDphRbaF/dmHf57aIt4VqN02HPQ6bFZH1SQ4+MbCH4qHQ9wqx8uDup91tnhPrxKsddRGXETfHrcXkogaNh7We/CnXTuMCGY8yIoj5UP8P1qfCVXh61Vst3KnDUWqVPvMrBnJqhmxjMd8y1ks22iaIwqLSM3sxj2omjnsSMVPVnC3fT0gTD4SwIfNKsWYSAb8G0ipiqif8Hd9fj++JzWLnBzztoB51eBk4O8YqOiOHaTOhg3AUoQ0xbAa08wZlCH6RSfZKLUrEtjkjRnDUO4n3nghudJEaU6uayybW+DLR2ywVVJ5BlVoInVKk6EwYMo8SRgESHV99MFwF9Z7gkLcV1dLLuxSrzwMM1Hz6Zia3iA/gTK1bttImBU7AOWf8jrZB5G9R4Sn9ySOhrllWumAhtNW5ny7ER/cj8bUWOXkgNWT+LM5/qSND2SZl9ALSmAvlfalfaitDbfi5eRgiA/ccDN3H60DR6rwesvoCeXBY7mAknYAv7KweaKIgAKUzv8R4KNzukdPXGQ54K/O0mmV/jZo/FZPPma14dhsMKTb9uY0GaC4BozX5oTxB/KSAqvuMR+Kr6DjLEh89G1A4mlSGFyiYXl+DfsiowIdv8l1VN68f4ycMsKY8IbJdtML0tfE++zRh6oCtwQtZ4gCysZ6ghqk=
     file_glob: true
-    file: products/*.tar.gz
+    file: products/*
     skip_cleanup: true
     on:
         repo: davidanthoff/IConvBuilder
