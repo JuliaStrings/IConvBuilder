@@ -29,4 +29,4 @@ products = prefix -> [
 dependencies = [
 ]
 
-build_tarballs(ARGS, "Snappy", sources, script, platforms, products, dependencies)
+build_tarballs(ARGS, "IConv", sources, script, platforms, products, dependencies)
