@@ -7,3 +7,5 @@ This repository builds binary artifacts for the libiconv project. Binary artifac
 on this repository.
 
 This repository was created using [BinaryBuilder.jl](https://github.com/JuliaPackaging/BinaryBuilder.jl)
+
+The release tags we use have the form ``v1.15+build.2``. The part before the ``+`` refers to the upstream version of libiconv, the part after the ``+`` refers to new builds on the end of IConvBuilder.
