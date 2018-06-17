@@ -24,16 +24,16 @@ before_script:
 script:
   - julia build_tarballs.jl
 
-
+  
 deploy:
-    provider: releases
-    api_key:
-        # Note; this api_key is only valid for davidanthoff/IConvBuilder; you need
-        # to make your own: https://docs.travis-ci.com/user/deployment/releases/
-        secure: L01GGsdJPZ4OJTD8/+wiDphRbaF/dmHf57aIt4VqN02HPQ6bFZH1SQ4+MbCH4qHQ9wqx8uDup91tnhPrxKsddRGXETfHrcXkogaNh7We/CnXTuMCGY8yIoj5UP8P1qfCVXh61Vst3KnDUWqVPvMrBnJqhmxjMd8y1ks22iaIwqLSM3sxj2omjnsSMVPVnC3fT0gTD4SwIfNKsWYSAb8G0ipiqif8Hd9fj++JzWLnBzztoB51eBk4O8YqOiOHaTOhg3AUoQ0xbAa08wZlCH6RSfZKLUrEtjkjRnDUO4n3nghudJEaU6uayybW+DLR2ywVVJ5BlVoInVKk6EwYMo8SRgESHV99MFwF9Z7gkLcV1dLLuxSrzwMM1Hz6Zia3iA/gTK1bttImBU7AOWf8jrZB5G9R4Sn9ySOhrllWumAhtNW5ny7ER/cj8bUWOXkgNWT+LM5/qSND2SZl9ALSmAvlfalfaitDbfi5eRgiA/ccDN3H60DR6rwesvoCeXBY7mAknYAv7KweaKIgAKUzv8R4KNzukdPXGQ54K/O0mmV/jZo/FZPPma14dhsMKTb9uY0GaC4BozX5oTxB/KSAqvuMR+Kr6DjLEh89G1A4mlSGFyiYXl+DfsiowIdv8l1VN68f4ycMsKY8IbJdtML0tfE++zRh6oCtwQtZ4gCysZ6ghqk=
-    file_glob: true
-    file: products/*
-    skip_cleanup: true
-    on:
-        repo: davidanthoff/IConvBuilder
-        tags: true
+  provider: releases
+  api_key:
+    # Note; this api_key is only valid for JuliaStrings/IConvBuilder; you need
+    # to make your own: https://docs.travis-ci.com/user/deployment/releases/
+    secure: qxjgxaYGc/haKmdw5RQ/yfh6gov/E34/Qfs0RMdrqMmypNrrfzl23tEr4KeYrWpRDpHEIXMiyA4/VOdmLJ2j/kLdfDsoaHhddsJPGDMnPoUSgKFH2/281fzjcQ9WK9+RkJqnTnRPu6I914njNfry856E9RYwrx1eHQeTflsJfqYQQ0r/Pl1/5EIXtyl63gsj1DdzpNqNfoobR/UEqHkeuNya/M3WHgd6VG9aR+NkGencc/PbGj2Hv+7ZGrLW1ywY2Xch0XVTBYV+RYFKf+bc/mDfOix+j/OhrthC3l90UEIy2IA2oI1NEPovVaC4i6cHzkssnQIlFGayPiJrcnzI7iTeQf7+S2e5NPxNuu+hGHKrKAW5v84KVlhvYyzRus1S6f8stCHgPVBH/pj5iVfSSaN9Dx+sPB2cL7RLNsHBj1e7M1ZDLTsd2GaoxnZLvhY/+EF9WKzS2N4FB7yxn12q8K6KUwfadhj6136TU85bLV7WAqHWMz43pZm7fUz71+KDZHWud+k1D4L/1xSVnnV5eB/u00Uv7cztIkBPoyTeoogHZEfk1abrzKr+C+w07Gfs08UY3JP/PoS0zPUaLXbYuhq0+UTLFTv7wElM9BqgI28ig5cm60MTxSlDjcCArlPOM/M6LmE8d6QRYxHUo4XWgidLlVUXBdQ348TlqeX57NQ=
+  file_glob: true
+  file: products/*
+  skip_cleanup: true
+  on:
+    repo: JuliaStrings/IConvBuilder
+    tags: true
